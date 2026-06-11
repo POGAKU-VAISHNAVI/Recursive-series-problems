@@ -1,0 +1,5 @@
+def hanoi_moves(n):
+    if n == 1:
+        return 1
+
+    return 2 * hanoi_moves(n - 1) + 1
